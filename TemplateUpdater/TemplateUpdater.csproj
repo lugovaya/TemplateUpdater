@@ -77,27 +77,6 @@
     <Compile Include="1CCommands\LoadEmptyTemplateCommand.cs" />
     <Compile Include="1CCommands\RunFileIbTemplateCommand.cs" />
     <Compile Include="1CCommands\UpdateIbTemplateCommand.cs" />
-    <Compile Include="CoreDatabasesModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CoreDatabasesModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CoreDatabasesModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CoreDatabasesModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CoreDatabasesModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CoreDatabasesModel.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Databases.cs">
-      <DependentUpon>CoreDatabasesModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="DbTemplates.cs">
-      <DependentUpon>CoreDatabasesModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Helpers\CustomChecker.cs" />
     <Compile Include="Infrastructure\ITemplateUpdateManager.cs" />
     <Compile Include="Models\TemplatesXmlModel\Detail.cs" />
@@ -149,23 +128,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EntityDeploy Include="CoreDatabasesModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>CoreDatabasesModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="CoreDatabasesModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>CoreDatabasesModel.edmx</DependentUpon>
-      <LastGenOutput>CoreDatabasesModel.Context.cs</LastGenOutput>
-    </None>
-    <None Include="CoreDatabasesModel.edmx.diagram">
-      <DependentUpon>CoreDatabasesModel.edmx</DependentUpon>
-    </None>
-    <None Include="CoreDatabasesModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>CoreDatabasesModel.edmx</DependentUpon>
-      <LastGenOutput>CoreDatabasesModel.cs</LastGenOutput>
-    </None>
     <None Include="NLog.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
