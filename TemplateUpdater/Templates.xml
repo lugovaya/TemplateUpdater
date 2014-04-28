@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TemplatesConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Templates>
+    <Template Name="">
+      <Detail IbName="" CurrentVersion="" ActualVersion="" TemplatePath="" UpdatesPath="" LastUpdateDate="" UpdatesCount="">
+        <Updates>
+          <Update Title="" UpdateDate="" UpdateVersion="">
+            <ApplyVersions>
+              <ApplyVersion></ApplyVersion>
+              <ApplyVersion></ApplyVersion>
+            </ApplyVersions>
+          </Update>
+          <Update Title="" UpdateDate="" UpdateVersion="">
+            <ApplyVersions>
+              <ApplyVersion></ApplyVersion>
+            </ApplyVersions>
+          </Update>
+          <Update Title="" UpdateDate="" UpdateVersion="">
+            <ApplyVersions>
+              <ApplyVersion></ApplyVersion>
+            </ApplyVersions>
+          </Update>
+        </Updates>
+      </Detail>
+    </Template>
+    <Template Name="">
+      <Detail IbName="" CurrentVersion="" ActualVersion="" TemplatePath="" UpdatesPath="" LastUpdateDate="" UpdatesCount="">
+        <Updates>
+          <Update Title="" UpdateDate="" UpdateVersion="">
+            <ApplyVersions>
+              <ApplyVersion></ApplyVersion>
+              <ApplyVersion></ApplyVersion>
+            </ApplyVersions>
+          </Update>
+          <Update Title="" UpdateDate="" UpdateVersion="">
+            <ApplyVersions>
+              <ApplyVersion></ApplyVersion>
+            </ApplyVersions>
+          </Update>
+          <Update Title="" UpdateDate="" UpdateVersion="">
+            <ApplyVersions>
+              <ApplyVersion></ApplyVersion>
+            </ApplyVersions>
+          </Update>
+        </Updates>
+      </Detail>
+    </Template>
+    <Template Name="">
+      <Detail IbName="" CurrentVersion="" ActualVersion="" TemplatePath="" UpdatesPath="" LastUpdateDate="" UpdatesCount="">
+        <Updates>
+          <Update Title="" UpdateDate="" UpdateVersion="">
+            <ApplyVersions>
+              <ApplyVersion></ApplyVersion>
+              <ApplyVersion></ApplyVersion>
+            </ApplyVersions>
+          </Update>
+          <Update Title="" UpdateDate="" UpdateVersion="">
+            <ApplyVersions>
+              <ApplyVersion></ApplyVersion>
+            </ApplyVersions>
+          </Update>
+          <Update Title="" UpdateDate="" UpdateVersion="">
+            <ApplyVersions>
+              <ApplyVersion></ApplyVersion>
+            </ApplyVersions>
+          </Update>
+        </Updates>
+      </Detail>
+    </Template>    
+  </Templates>
+</TemplatesConfig>
